@@ -141,7 +141,7 @@ export async function convertToWebP(options: CWebPOptions): Promise<void> {
   } else {
     args.push(input);
   }
-
+  
   const process = new Deno.Command("cwebp", {
     args,
     stdout: "inherit",
