@@ -16,6 +16,9 @@ Ensure `cwebp` is installed on your system:
 # macOS
 brew install webp
 
+# Archlinux
+sudo pacman -S libwebp
+
 # Ubuntu/Debian
 sudo apt install webp
 
